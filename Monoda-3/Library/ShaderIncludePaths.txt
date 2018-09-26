@@ -1,0 +1,4 @@
+/home/otreblan/git/Monoda-3/Monoda-3/Library/PackageCache/com.unity.postprocessing@2.0.11-preview
+/home/otreblan/git/Monoda-3/Monoda-3/Library/PackageCache/com.unity.render-pipelines.core@3.3.0-preview
+/home/otreblan/git/Monoda-3/Monoda-3/Library/PackageCache/com.unity.render-pipelines.lightweight@3.3.0-preview
+/home/otreblan/git/Monoda-3/Monoda-3/Library/PackageCache/com.unity.shadergraph@3.3.0-preview
