@@ -53,6 +53,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\asteScript.cs" />
      <Compile Include="Assets\Scripts\plaScript.cs" />
      <Compile Include="Assets\Scripts\sigueScript.cs" />
  <Reference Include="UnityEditor.StandardEvents">
