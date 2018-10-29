@@ -1,10 +1,27 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class plaScript : MonoBehaviour {
 
+	public Text text;
+
 	public float vel = 1f;
+
+	public int Aste
+	{
+		get
+		{
+			return aste;
+		}
+		set
+		{
+			aste = value;
+			text.text = "aste: "+value.ToString();
+		}
+	}
+	int aste = 0;
 
 	Vector3 distan;
 	// Use this for initialization

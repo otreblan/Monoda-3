@@ -291,7 +291,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Aste:'
+  m_Text: 'Aste: 0'
 --- !u!222 &517256499
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -472,7 +472,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7cb92ad06de94db4cbae2420c53d546f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pla: {fileID: 688893986}
   rotVel: 1
+--- !u!61 &567038831
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 567038829}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &688893983
 GameObject:
   m_ObjectHideFlags: 0
@@ -560,6 +586,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dda96837f68a1f34ebdbc8550083be1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  text: {fileID: 517256498}
   vel: 10
 --- !u!1 &1052138206
 GameObject:
@@ -16285,6 +16312,7 @@ GameObject:
   - component: {fileID: 1651797369}
   - component: {fileID: 1651797368}
   - component: {fileID: 1651797371}
+  - component: {fileID: 1651797372}
   m_Layer: 0
   m_Name: Canvas
   m_TagString: Untagged
@@ -16376,7 +16404,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1651797366}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a552bc04a3a3a9f48a525ea2eb340e21, type: 3}
   m_Name: 
@@ -16384,6 +16412,24 @@ MonoBehaviour:
   sigue: {fileID: 688893985}
   tiempo: 0.2
   vel: {x: 0, y: 0}
+--- !u!1818360608 &1651797372
+PositionConstraint:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1651797366}
+  m_Enabled: 1
+  m_Weight: 1
+  m_TranslationAtRest: {x: 0, y: 0, z: 0}
+  m_TranslationOffset: {x: 0, y: 0, z: 0}
+  m_AffectTranslationX: 1
+  m_AffectTranslationY: 1
+  m_AffectTranslationZ: 1
+  m_IsContraintActive: 1
+  m_IsLocked: 0
+  m_Sources:
+  - sourceTransform: {fileID: 688893985}
+    weight: 1
 --- !u!1 &1658739725
 GameObject:
   m_ObjectHideFlags: 0
