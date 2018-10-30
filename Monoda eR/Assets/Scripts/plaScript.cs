@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class plaScript : MonoBehaviour {
 
+	#region variables
 	public Text text;
 
 	public float vel = 1f;
@@ -22,8 +23,9 @@ public class plaScript : MonoBehaviour {
 		}
 	}
 	int aste = 0;
-
 	Vector3 distan;
+	#endregion
+
 	// Use this for initialization
 	void Start () {
 		
