@@ -619,7 +619,7 @@ PlayerSettings:
   cloudServicesEnabled:
     UNet: 1
   facebookSdkVersion: 7.9.4
-  apiCompatibilityLevel: 2
+  apiCompatibilityLevel: 3
   cloudProjectId: 2fc93710-e080-4213-96c2-6b262af04c44
   projectName: Monoda eR
   organizationId: otreblan
