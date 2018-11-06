@@ -164,9 +164,11 @@
      <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Scripts\DocLinks.cs" />
      <Compile Include="Assets\Scripts\asteScript.cs" />
      <Compile Include="Assets\Scripts\cambiaEscena.cs" />
+     <Compile Include="Assets\Scripts\flechaScript.cs" />
      <Compile Include="Assets\Scripts\fondoScript.cs" />
      <Compile Include="Assets\Scripts\gameJoltUserScript.cs" />
      <Compile Include="Assets\Scripts\plaScript.cs" />
+     <Compile Include="Assets\Scripts\proyectilScript.cs" />
      <Compile Include="Assets\Scripts\sigueScript.cs" />
      <Compile Include="Assets\Scripts\spawnScript.cs" />
      <Compile Include="Assets\Scripts\vidaScript.cs" />
@@ -388,17 +390,17 @@
  <Reference Include="UnityEngine.SpatialTracking">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.13f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
- <Reference Include="UnityEngine.Analytics">
- <HintPath>C:/Users/otreblan/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.StandardEvents">
- <HintPath>C:/Users/otreblan/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
- </Reference>
  <Reference Include="Photon3Unity3D">
  <HintPath>C:/Users/otreblan/Documents/GitHub/Monoda-vS/Monoda vS/Assets/Photon/PhotonLibs/Photon3Unity3D.dll</HintPath>
  </Reference>
  <Reference Include="websocket-sharp">
  <HintPath>C:/Users/otreblan/Documents/GitHub/Monoda-vS/Monoda vS/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Users/otreblan/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.StandardEvents">
+ <HintPath>C:/Users/otreblan/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>

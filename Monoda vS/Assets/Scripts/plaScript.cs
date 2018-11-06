@@ -33,7 +33,8 @@ public class plaScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		distan = Vector3.ClampMagnitude(new Vector3(Input.GetAxis("Horizontal"),Input.GetAxis("Vertical"),0f),1.0f)*(Time.deltaTime*vel);;
+		distan = (Vector3)Vector2.ClampMagnitude(new Vector2(Input.GetAxis("Horizontal"),Input.GetAxis("Vertical")),1.0f)*(Time.deltaTime*vel);;
 		transform.position += distan;
 	}
+	
 }
