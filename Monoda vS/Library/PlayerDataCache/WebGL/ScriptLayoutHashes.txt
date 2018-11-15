@@ -1,6 +1,6 @@
 WebGL
 PlayerPath?
-C:/Users/otreblan/Desktop/pruebas/0.0.4
+C:/Users/otreblan/Desktop/pruebas/0.0.5
 SceneListBegin?
 Assets/Scenes/PruebasPortada.unity
 Assets/Scenes/PruebasRandom.unity
@@ -140,6 +140,7 @@ fa262644fac0869ddef8222cdcdc1af7 Assembly-CSharp.dll:Photon.Pun.Demo.Cockpit.Sen
 61e1aa396f3b71dddd0de218f1da8e59 PhotonUnityNetworking.Utilities.dll:Photon.Pun.UtilityScripts.TabViewManager
 66b3109aa5921cf800bec17926c6adba Unity.TextMeshPro.dll:TMPro.TMP_SubMeshUI
 b609004660c68459b8e9a719c4b1bea2 Assembly-CSharp.dll:Photon.Pun.Demo.Asteroids.AsteroidsGameManager
+579ee8c2d231b009035d8a9999ef0c4a Assembly-CSharp.dll:.proyectilScript
 201273fb4f889724fb090164b7d6c657 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 486cd95c82d8305219c352c06b776e1f UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
 0f27c39183b9eb95eba0a228bea28273 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkDiscovery
@@ -156,8 +157,8 @@ fc061f3ae8a876c0687e86378d4a447c UnityEngine.Networking.dll:UnityEngine.Networki
 7ca56e063bd071986fff4f513cc4f477 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
 0a006f3734181ba8b26758f0866152c0 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 3ea83daf11d31a7f24141f02305c26ed Assembly-CSharp.dll:.sigueScript
+f6d1fcaad219284b8429fb2478ec62b7 Assembly-CSharp.dll:.flechaScript
 ae74fc196a06f796692fe7705044f8ec PhotonUnityNetworking.dll:Photon.Pun.PhotonRigidbody2DView
-e8739a896f884c3c4c3bcfb9c40b0a38 Assembly-CSharp.dll:.gameJoltUserScript
 486cd95c82d8305219c352c06b776e1f PhotonUnityNetworking.Utilities.dll:Photon.Pun.UtilityScripts.OnStartDelete
 d28578e98a6ae48d33d593052d12c700 PhotonUnityNetworking.Utilities.dll:Photon.Pun.UtilityScripts.CullArea
 1dca0d5c070a81b999c7ca894a27052a Assembly-CSharp.dll:.NamePickGui
@@ -331,5 +332,4 @@ d1eaa3d26bc8f6c963d62aa0b45c5d1a Assembly-CSharp.dll:Photon.Pun.Demo.Cockpit.Fri
 f1d2955b217f217e8ae21c91116e86e4 Assembly-CSharp.dll:Photon.Pun.Demo.Cockpit.Forms.UserIdUiForm
 3d9992eb9e8452d2fb21ba548bd4aca1 Assembly-CSharp.dll:Photon.Pun.Demo.Cockpit.CountOfRoomsProperty
 424f3aad821677fab5a6a08fbbf773db Assembly-CSharp.dll:Photon.Pun.Demo.Asteroids.LobbyTopPanel
-f6d1fcaad219284b8429fb2478ec62b7 Assembly-CSharp.dll:.flechaScript
-579ee8c2d231b009035d8a9999ef0c4a Assembly-CSharp.dll:.proyectilScript
+e8739a896f884c3c4c3bcfb9c40b0a38 Assembly-CSharp.dll:.usuarioScript

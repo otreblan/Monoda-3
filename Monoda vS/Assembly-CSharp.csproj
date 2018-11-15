@@ -166,11 +166,11 @@
      <Compile Include="Assets\Scripts\cambiaEscena.cs" />
      <Compile Include="Assets\Scripts\flechaScript.cs" />
      <Compile Include="Assets\Scripts\fondoScript.cs" />
-     <Compile Include="Assets\Scripts\gameJoltUserScript.cs" />
      <Compile Include="Assets\Scripts\plaScript.cs" />
      <Compile Include="Assets\Scripts\proyectilScript.cs" />
      <Compile Include="Assets\Scripts\sigueScript.cs" />
      <Compile Include="Assets\Scripts\spawnScript.cs" />
+     <Compile Include="Assets\Scripts\usuarioScript.cs" />
      <Compile Include="Assets\Scripts\vidaScript.cs" />
      <None Include="Assets\Photon\PhotonUnityNetworking\link.xml" />
      <None Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney Assets\Copyrights.txt" />

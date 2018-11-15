@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/PruebasRandom.unity
+- path: Assets/Scenes/PruebasPortada.unity
   isLoaded: 1
   isActive: 1

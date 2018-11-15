@@ -1003,10 +1003,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1767607025}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99549854be080bb4f824d7122b79da26, type: 3}
+  m_Script: {fileID: 11500000, guid: 9d185f69487ce674cb32d7906ecf8ef9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nombrePruebas: {fileID: 0}
+  nombrePruebas: {fileID: 1139404103}
 --- !u!4 &1767607027
 Transform:
   m_ObjectHideFlags: 0
