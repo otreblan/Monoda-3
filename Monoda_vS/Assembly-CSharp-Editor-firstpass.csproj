@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{A7C04383-80A3-953B-69CB-3A60E88FE183}</ProjectGuid>
+    <ProjectGuid>{4247F5B0-EB5A-AB19-D564-D9F9B2ED6B5E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor-firstpass</AssemblyName>
@@ -56,16 +56,16 @@
      <Compile Include="Assets\Plugins\Editor\GameJolt\SettingsEditor.cs" />
      <Compile Include="Assets\Plugins\Editor\GameJolt\Tools.cs" />
  <Reference Include="UnityEditor.StandardEvents">
- <HintPath>C:/Users/otreblan/Documents/GitHub/Monoda-vS/Monoda vS/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+ <HintPath>C:/Users/otreblan/Documents/GitHub/Monoda-vS/Monoda_vS/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>C:/Users/otreblan/Documents/GitHub/Monoda-vS/Monoda vS/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>C:/Users/otreblan/Documents/GitHub/Monoda-vS/Monoda_vS/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>C:/Users/otreblan/Documents/GitHub/Monoda-vS/Monoda vS/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ <HintPath>C:/Users/otreblan/Documents/GitHub/Monoda-vS/Monoda_vS/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>C:/Users/otreblan/Documents/GitHub/Monoda-vS/Monoda vS/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>C:/Users/otreblan/Documents/GitHub/Monoda-vS/Monoda_vS/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -317,13 +317,13 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.16f1/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="Photon3Unity3D">
- <HintPath>C:/Users/otreblan/Documents/GitHub/Monoda-vS/Monoda vS/Assets/Photon/PhotonLibs/Photon3Unity3D.dll</HintPath>
+ <HintPath>C:/Users/otreblan/Documents/GitHub/Monoda-vS/Monoda_vS/Assets/Photon/PhotonLibs/Photon3Unity3D.dll</HintPath>
  </Reference>
  <Reference Include="websocket-sharp">
- <HintPath>C:/Users/otreblan/Documents/GitHub/Monoda-vS/Monoda vS/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
+ <HintPath>C:/Users/otreblan/Documents/GitHub/Monoda-vS/Monoda_vS/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
  </Reference>
  <Reference Include="Newtonsoft.Json">
- <HintPath>C:/Users/otreblan/Documents/GitHub/Monoda-vS/Monoda vS/Assets/Photon/PhotonUnityNetworking/Code/Editor/Newtonsoft.Json.dll</HintPath>
+ <HintPath>C:/Users/otreblan/Documents/GitHub/Monoda-vS/Monoda_vS/Assets/Photon/PhotonUnityNetworking/Code/Editor/Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>C:/Users/otreblan/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
@@ -688,23 +688,23 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{49E16151-AE7F-2165-F163-10776C9D8759}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{39B92D16-5BF8-42F6-C12A-B2E4F74375EE}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.csproj">
-      <Project>{BFDF7D97-0B66-E8DD-7E97-DE51E6609F7C}</Project>      <Name>PhotonUnityNetworking.Utilities.PhotonPlayer.Editor</Name>    </ProjectReference>
+      <Project>{04B104EB-0A0D-37FC-F302-D45F0CDABC83}</Project>      <Name>PhotonUnityNetworking.Utilities.PhotonPlayer.Editor</Name>    </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Utilities.csproj">
-      <Project>{F62D1F50-17E9-CDA3-A4D9-0D6769B1CBA9}</Project>      <Name>PhotonUnityNetworking.Utilities</Name>    </ProjectReference>
+      <Project>{FB2F3989-C1D0-79CC-1B31-752EA8D3214D}</Project>      <Name>PhotonUnityNetworking.Utilities</Name>    </ProjectReference>
     <ProjectReference Include="PhotonWebSocket.csproj">
-      <Project>{05D8BF6B-1111-FBF1-1D19-AE4D9D470F38}</Project>      <Name>PhotonWebSocket</Name>    </ProjectReference>
+      <Project>{4AF8CFFC-8FF2-A028-A463-CE014673C08E}</Project>      <Name>PhotonWebSocket</Name>    </ProjectReference>
     <ProjectReference Include="PhotonRealtime.csproj">
-      <Project>{FEC5778F-802C-F01B-5A1F-ACD276B2525E}</Project>      <Name>PhotonRealtime</Name>    </ProjectReference>
+      <Project>{9513549A-734B-310E-BBBE-240A4851CFDB}</Project>      <Name>PhotonRealtime</Name>    </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.csproj">
-      <Project>{653C7765-2012-9260-D7AC-8990AC495E68}</Project>      <Name>PhotonUnityNetworking</Name>    </ProjectReference>
+      <Project>{C6C1C1BB-C62A-3415-0A9F-BBBA32BDED05}</Project>      <Name>PhotonUnityNetworking</Name>    </ProjectReference>
     <ProjectReference Include="PhotonChat.csproj">
-      <Project>{7A9333A4-DACE-9A4C-1914-2642DCF253DD}</Project>      <Name>PhotonChat</Name>    </ProjectReference>
+      <Project>{2A8993BE-E2A8-4300-1DBD-33004C81B7FC}</Project>      <Name>PhotonChat</Name>    </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Utilities.Culling.Editor.csproj">
-      <Project>{25491BB1-D4EF-EAD7-60DD-5AD57A0D4557}</Project>      <Name>PhotonUnityNetworking.Utilities.Culling.Editor</Name>    </ProjectReference>
+      <Project>{FF869AED-A1FA-3A8D-F1EF-B353A495F494}</Project>      <Name>PhotonUnityNetworking.Utilities.Culling.Editor</Name>    </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Editor.csproj">
-      <Project>{513173CD-C172-281A-9070-243A33281451}</Project>      <Name>PhotonUnityNetworking.Editor</Name>    </ProjectReference>
+      <Project>{2D15A446-243A-4BAC-B29B-9368AD3D46E3}</Project>      <Name>PhotonUnityNetworking.Editor</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

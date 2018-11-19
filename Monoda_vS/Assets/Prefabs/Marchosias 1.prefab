@@ -96,6 +96,7 @@ GameObject:
   - component: {fileID: 114877355379963668}
   - component: {fileID: 114621188714705828}
   - component: {fileID: 114350790362236922}
+  - component: {fileID: 114760552839298680}
   m_Layer: 0
   m_Name: Marchosias 1
   m_TagString: Player
@@ -228,7 +229,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e2e0f93d1996a241ae42f48db9d314f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  velocidad: 20
   proyectil: {fileID: 1057038333422810, guid: 409f5a7fcee5b8f4ca435fea3d8ce021, type: 2}
+  rpm: 480
 --- !u!114 &114411703617172864
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -351,6 +354,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   flecha: {fileID: 4214948974537508}
   vel: 8.06
+  tempAngl: 0
+  flechaAngl: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &114626539127818590
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -405,6 +410,20 @@ MonoBehaviour:
   sigue: {fileID: 4183962125204330}
   tiempo: 0.2
   vel: {x: 0, y: 0}
+--- !u!114 &114760552839298680
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1558767731523344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb26fac82342f2e49ab8bf98d943e444, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  distan: 50
+  tiempo: 0
+  parts: 60
 --- !u!114 &114877355379963668
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -416,8 +435,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad3c529d1a26b424dae7ade3b2c9ea9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vidaMax: 0
-  vidaInicial: 0
+  fac: 2
+  vidaMax: 100
+  vidaInicial: 100
 --- !u!114 &114949258912040300
 MonoBehaviour:
   m_ObjectHideFlags: 1

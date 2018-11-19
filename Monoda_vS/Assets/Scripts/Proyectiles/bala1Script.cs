@@ -13,4 +13,21 @@ public class bala1Script : MonoBehaviour {
 	void Update () {
 		
 	}
+	/// <summary>
+	/// Sent when another object enters a trigger collider attached to this
+	/// object (2D physics only).
+	/// </summary>
+	/// <param name="other">The other Collider2D involved in this collision.</param>
+	void OnTriggerEnter2D(Collider2D other)
+	{
+		switch (other.GetComponent<vidaScript>().fac)
+		{
+			case vidaScript.faction.Neutral:
+				//Destroy(other.gameObject);
+				other.GetComponent<vidaScript>().Vida -= 1f;
+				Destroy(this.gameObject);
+				break;
+		}
+
+	}
 }

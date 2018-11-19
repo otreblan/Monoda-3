@@ -1,6 +1,6 @@
 WebGL
 PlayerPath?
-C:/Users/otreblan/Desktop/pruebas/0.0.6
+C:/Users/otreblan/Desktop/pruebas/0.0.7
 SceneListBegin?
 Assets/Scenes/PruebasPortada.unity
 Assets/Scenes/PruebasRandom.unity
@@ -140,7 +140,7 @@ fa262644fac0869ddef8222cdcdc1af7 Assembly-CSharp.dll:Photon.Pun.Demo.Cockpit.Sen
 61e1aa396f3b71dddd0de218f1da8e59 PhotonUnityNetworking.Utilities.dll:Photon.Pun.UtilityScripts.TabViewManager
 66b3109aa5921cf800bec17926c6adba Unity.TextMeshPro.dll:TMPro.TMP_SubMeshUI
 b609004660c68459b8e9a719c4b1bea2 Assembly-CSharp.dll:Photon.Pun.Demo.Asteroids.AsteroidsGameManager
-579ee8c2d231b009035d8a9999ef0c4a Assembly-CSharp.dll:.proyectilScript
+359f31018f2b2406500745884ab4d41a Assembly-CSharp.dll:.proyectilScript
 201273fb4f889724fb090164b7d6c657 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 486cd95c82d8305219c352c06b776e1f UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
 0f27c39183b9eb95eba0a228bea28273 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkDiscovery
@@ -157,7 +157,7 @@ fc061f3ae8a876c0687e86378d4a447c UnityEngine.Networking.dll:UnityEngine.Networki
 7ca56e063bd071986fff4f513cc4f477 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
 0a006f3734181ba8b26758f0866152c0 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 3ea83daf11d31a7f24141f02305c26ed Assembly-CSharp.dll:.sigueScript
-f6d1fcaad219284b8429fb2478ec62b7 Assembly-CSharp.dll:.flechaScript
+84fb98b18bd5749f031f801c02f5d1c2 Assembly-CSharp.dll:.flechaScript
 ae74fc196a06f796692fe7705044f8ec PhotonUnityNetworking.dll:Photon.Pun.PhotonRigidbody2DView
 486cd95c82d8305219c352c06b776e1f PhotonUnityNetworking.Utilities.dll:Photon.Pun.UtilityScripts.OnStartDelete
 d28578e98a6ae48d33d593052d12c700 PhotonUnityNetworking.Utilities.dll:Photon.Pun.UtilityScripts.CullArea
@@ -188,7 +188,7 @@ ca63eda640f86c8f6df7dba11b98343c Assembly-CSharp-firstpass.dll:GameJolt.Demo.Con
 f16835701e71dd5d6fb1fed4b7aff1d8 Unity.TextMeshPro.dll:TMPro.TMP_Asset
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:Photon.Chat.UtilityScripts.EventSystemSpawner
 41324b3b3473d001501c3dcd9ebdbd92 PhotonUnityNetworking.Utilities.dll:Photon.Pun.UtilityScripts.OnClickInstantiate
-16dedf4b0350f73e9be465dbe64cfbe2 Assembly-CSharp.dll:.creaMapaScript
+1210da3d66862401fd91110939fa1ce4 Assembly-CSharp.dll:.creaMapaScript
 3d9992eb9e8452d2fb21ba548bd4aca1 Assembly-CSharp.dll:Photon.Pun.Demo.Cockpit.CloudRegionProperty
 cc897ffaccf7411ad5f3b9b409024407 Assembly-CSharp.dll:Photon.Pun.Demo.Asteroids.PlayerOverviewPanel
 43469f1acb6d615ccbab429886a4d0f9 Assembly-CSharp.dll:.ChannelSelector
@@ -215,6 +215,7 @@ fa262644fac0869ddef8222cdcdc1af7 Assembly-CSharp.dll:Photon.Pun.Demo.Cockpit.Bac
 eaf0bcdb10d442a4029d615f41d09957 Unity.TextMeshPro.dll:TMPro.TextContainer
 dac5bb3b3fe545f8ede345740fab531b Assembly-CSharp-firstpass.dll:GameJolt.API.GameJoltAPI
 95e6e48302720b513a3884c451b98887 Assembly-CSharp-firstpass.dll:GameJolt.UI.Controllers.TrophiesWindow
+cd30e579bd238a0db7e7d627be242392 Assembly-CSharp.dll:.AsteControScript
 4c4e9e771f92f27d91b983c5bb574ec1 Assembly-CSharp.dll:Photon.Pun.Demo.Cockpit.RegionListCell
 861938bd87b960d47c5a0e28da71dbcf Assembly-CSharp-firstpass.dll:GameJolt.Demo.UI.RestrictedButton
 3d9992eb9e8452d2fb21ba548bd4aca1 Assembly-CSharp.dll:Photon.Pun.Demo.Cockpit.IsConnectedProperty
@@ -300,7 +301,7 @@ a2651694e7b6c8dd699b038f729bf69b PhotonRealtime.dll:Photon.Realtime.SupportLogge
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:Photon.Chat.UtilityScripts.OnStartDelete
 3d9992eb9e8452d2fb21ba548bd4aca1 Assembly-CSharp.dll:Photon.Pun.Demo.Cockpit.IsConnectedAndReadyProperty
 6356660b50a1795da3bb9af9af280125 Assembly-CSharp-firstpass.dll:GameJolt.UI.Controllers.TableButton
-7b16a4d011505eceb1c24f49e4158a6c Assembly-CSharp.dll:.vidaScript
+0c402f40e18a445703cbe39380766c12 Assembly-CSharp.dll:.vidaScript
 e04611b8715e6833d2bd7010fc6be10b Unity.TextMeshPro.dll:TMPro.TMP_StyleSheet
 39b54f86b5b07a0183854b3c16fcdaa4 PhotonUnityNetworking.Utilities.dll:Photon.Pun.UtilityScripts.MoveByKeys
 486cd95c82d8305219c352c06b776e1f PhotonUnityNetworking.Utilities.dll:Photon.Pun.UtilityScripts.OnEscapeQuit

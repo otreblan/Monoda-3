@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{7A9333A4-DACE-9A4C-1914-2642DCF253DD}</ProjectGuid>
+    <ProjectGuid>{2A8993BE-E2A8-4300-1DBD-33004C81B7FC}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>PhotonChat</AssemblyName>
@@ -298,13 +298,13 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.16f1/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="Photon3Unity3D">
- <HintPath>C:/Users/otreblan/Documents/GitHub/Monoda-vS/Monoda vS/Assets/Photon/PhotonLibs/Photon3Unity3D.dll</HintPath>
+ <HintPath>C:/Users/otreblan/Documents/GitHub/Monoda-vS/Monoda_vS/Assets/Photon/PhotonLibs/Photon3Unity3D.dll</HintPath>
  </Reference>
  <Reference Include="websocket-sharp">
- <HintPath>C:/Users/otreblan/Documents/GitHub/Monoda-vS/Monoda vS/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
+ <HintPath>C:/Users/otreblan/Documents/GitHub/Monoda-vS/Monoda_vS/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
  </Reference>
  <Reference Include="Newtonsoft.Json">
- <HintPath>C:/Users/otreblan/Documents/GitHub/Monoda-vS/Monoda vS/Assets/Photon/PhotonUnityNetworking/Code/Editor/Newtonsoft.Json.dll</HintPath>
+ <HintPath>C:/Users/otreblan/Documents/GitHub/Monoda-vS/Monoda_vS/Assets/Photon/PhotonUnityNetworking/Code/Editor/Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>C:/Users/otreblan/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
@@ -669,7 +669,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="PhotonWebSocket.csproj">
-      <Project>{05D8BF6B-1111-FBF1-1D19-AE4D9D470F38}</Project>      <Name>PhotonWebSocket</Name>    </ProjectReference>
+      <Project>{4AF8CFFC-8FF2-A028-A463-CE014673C08E}</Project>      <Name>PhotonWebSocket</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

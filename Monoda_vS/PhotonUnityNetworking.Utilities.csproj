@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{F62D1F50-17E9-CDA3-A4D9-0D6769B1CBA9}</ProjectGuid>
+    <ProjectGuid>{FB2F3989-C1D0-79CC-1B31-752EA8D3214D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>PhotonUnityNetworking.Utilities</AssemblyName>
@@ -315,13 +315,13 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.16f1/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="Photon3Unity3D">
- <HintPath>C:/Users/otreblan/Documents/GitHub/Monoda-vS/Monoda vS/Assets/Photon/PhotonLibs/Photon3Unity3D.dll</HintPath>
+ <HintPath>C:/Users/otreblan/Documents/GitHub/Monoda-vS/Monoda_vS/Assets/Photon/PhotonLibs/Photon3Unity3D.dll</HintPath>
  </Reference>
  <Reference Include="websocket-sharp">
- <HintPath>C:/Users/otreblan/Documents/GitHub/Monoda-vS/Monoda vS/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
+ <HintPath>C:/Users/otreblan/Documents/GitHub/Monoda-vS/Monoda_vS/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
  </Reference>
  <Reference Include="Newtonsoft.Json">
- <HintPath>C:/Users/otreblan/Documents/GitHub/Monoda-vS/Monoda vS/Assets/Photon/PhotonUnityNetworking/Code/Editor/Newtonsoft.Json.dll</HintPath>
+ <HintPath>C:/Users/otreblan/Documents/GitHub/Monoda-vS/Monoda_vS/Assets/Photon/PhotonUnityNetworking/Code/Editor/Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>C:/Users/otreblan/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
@@ -686,9 +686,9 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="PhotonRealtime.csproj">
-      <Project>{FEC5778F-802C-F01B-5A1F-ACD276B2525E}</Project>      <Name>PhotonRealtime</Name>    </ProjectReference>
+      <Project>{9513549A-734B-310E-BBBE-240A4851CFDB}</Project>      <Name>PhotonRealtime</Name>    </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.csproj">
-      <Project>{653C7765-2012-9260-D7AC-8990AC495E68}</Project>      <Name>PhotonUnityNetworking</Name>    </ProjectReference>
+      <Project>{C6C1C1BB-C62A-3415-0A9F-BBBA32BDED05}</Project>      <Name>PhotonUnityNetworking</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

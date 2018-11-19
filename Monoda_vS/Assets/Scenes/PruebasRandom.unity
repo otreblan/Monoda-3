@@ -144,11 +144,35 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 200
-    height: 200
+    width: 2000
+    height: 2000
   objs:
   - cosa: {fileID: 1027215225560272, guid: 9c7b20480f49a0849b867166cc21ec84, type: 2}
-    concentracion: 1
+    concentracion: 2
+    size:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.25
+        inSlope: 0.66686326
+        outSlope: 0.66686326
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 1
+      - serializedVersion: 3
+        time: 1
+        value: 10
+        inSlope: 734.2944
+        outSlope: 734.2944
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: 0.014605224
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
 --- !u!4 &365087422
 Transform:
   m_ObjectHideFlags: 0
@@ -348,7 +372,7 @@ MonoBehaviour:
   sigue: {fileID: 0}
   tiempo: 0.25
   vel: {x: 0, y: 0}
---- !u!1001 &567038828
+--- !u!1001 &888221631
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -385,10 +409,6 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4501726857307362, guid: 9c7b20480f49a0849b867166cc21ec84, type: 2}
       propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1027215225560272, guid: 9c7b20480f49a0849b867166cc21ec84, type: 2}
-      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -15977,11 +15997,6 @@ Prefab:
     - target: {fileID: 4183962125204330, guid: 4131444e361f0ab41ae6d29955c0575b, type: 2}
       propertyPath: m_RootOrder
       value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 114350790362236922, guid: 4131444e361f0ab41ae6d29955c0575b,
-        type: 2}
-      propertyPath: fuerza
-      value: 439.78
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4131444e361f0ab41ae6d29955c0575b, type: 2}
