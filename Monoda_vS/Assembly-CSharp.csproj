@@ -176,6 +176,7 @@
      <Compile Include="Assets\Scripts\spawnScript.cs" />
      <Compile Include="Assets\Scripts\usuarioScript.cs" />
      <None Include="Assets\Photon\PhotonUnityNetworking\link.xml" />
+     <None Include="Assets\Sounds\lic.txt" />
      <None Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney Assets\Copyrights.txt" />
      <None Include="Assets\Photon\PhotonLibs\Photon3Unity3D.xml" />
      <None Include="Assets\Photon\PhotonLibs\release_history.txt" />

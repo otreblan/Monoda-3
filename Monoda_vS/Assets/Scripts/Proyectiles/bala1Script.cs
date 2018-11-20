@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class bala1Script : MonoBehaviour {
 
+	public AudioSource audioSource;
+	public AudioClip explo;
+
+	public float damage;
 	// Use this for initialization
 	void Start () {
 		
@@ -13,6 +17,8 @@ public class bala1Script : MonoBehaviour {
 	void Update () {
 		
 	}
+
+	
 	/// <summary>
 	/// Sent when another object enters a trigger collider attached to this
 	/// object (2D physics only).
@@ -24,7 +30,8 @@ public class bala1Script : MonoBehaviour {
 		{
 			case vidaScript.faction.Neutral:
 				//Destroy(other.gameObject);
-				other.GetComponent<vidaScript>().Vida -= 1f;
+				audioSource.PlayOneShot(explo);
+				other.GetComponent<vidaScript>().Vida -= damage;
 				Destroy(this.gameObject);
 				break;
 		}
