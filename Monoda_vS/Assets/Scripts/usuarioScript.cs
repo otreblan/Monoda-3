@@ -18,6 +18,7 @@ public class usuarioScript : MonoBehaviour {
 		}
 		set
 		{
+			Debug.Log(value);
 			nombrePruebas.text = "Hola, "+value;
 			user = value;
 		}
@@ -33,16 +34,18 @@ public class usuarioScript : MonoBehaviour {
 				if(signInSuccess) {
 					//ShowTrophiesButton.interactable = true;
 					Debug.Log("Logged In");
+					User = GameJoltAPI.Instance.CurrentUser.Name;
 				} else {
 					Debug.Log("Dismissed or Failed");
 				}
 			}, userFetchSuccess => {
 				Debug.Log(string.Format("User's Information Fetch {0}.", userFetchSuccess ? "Successful" : "Failed"));
 			});
-			nombrePruebas.text = GameJoltAPI.Instance.CurrentUser.Name;
+			
 		#endif
 		#if UNITY_WEBGL
-			nombrePruebas.text = GameJoltAPI.Instance.CurrentUser.Name;
+			Debug.Log("webgl");
+			User = GameJoltAPI.Instance.CurrentUser.Name;
 		#endif
 		//yield return null;
 	}

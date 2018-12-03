@@ -1,6 +1,6 @@
 WebGL
 PlayerPath?
-C:/Users/otreblan/Desktop/pruebas/0.0.8
+C:/Users/otreblan/Desktop/pruebas/0.0.9
 SceneListBegin?
 Assets/Scenes/PruebasPortada.unity
 Assets/Scenes/PruebasRandom.unity
@@ -256,9 +256,11 @@ e53cc67d84060d628c7f03fc725766d8 Unity.TextMeshPro.dll:TMPro.TMP_FontAsset
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:Photon.Pun.Demo.Procedural.Cluster
 392c5b921098bd4c139d9146d0efa6d7 Unity.TextMeshPro.dll:TMPro.TMP_Settings
 171b07b61d67050a3da231688f4c2950 Assembly-CSharp.dll:Photon.Pun.Demo.Cockpit.AppVersionProperty
+ddcae71b3f91386237efd012a9eef2be UnityEngine.TestRunner.dll:UnityEngine.TestTools.EnumerableSetUpTearDownCommandState
 486cd95c82d8305219c352c06b776e1f UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.PlayModeRunnerCallback
 e033f131358cea5a0eabf9561e781deb UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.PlaymodeTestsController
 9d863b523b577f5c3d915351a74cd338 UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.RemoteTestResultSender
+486cd95c82d8305219c352c06b776e1f UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.TestResultRendererCallback
 a5c0922eaefc590249dcc174ad61b107 Assembly-CSharp.dll:.FriendItem
 1a90b221dc803408fbafa883c12bcab4 UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioListenerExtension
 70f7dc248db3379548a88e8d4fa049f8 UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioRoom
