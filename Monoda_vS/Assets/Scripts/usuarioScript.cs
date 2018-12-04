@@ -35,6 +35,7 @@ public class usuarioScript : MonoBehaviour {
 					//ShowTrophiesButton.interactable = true;
 					Debug.Log("Logged In");
 					User = GameJoltAPI.Instance.CurrentUser.Name;
+					
 				} else {
 					Debug.Log("Dismissed or Failed");
 				}
@@ -44,9 +45,17 @@ public class usuarioScript : MonoBehaviour {
 			
 		#endif
 		#if UNITY_WEBGL
-			Debug.Log("webgl");
-			User = GameJoltAPI.Instance.CurrentUser.Name;
+			//Debug.Log("webgl");
+			StartCoroutine(login());
+			
 		#endif
 		//yield return null;
+	}
+	IEnumerator login()
+	{
+		//print(GameJoltAPI.Instance == null);
+		yield return new WaitUntil(()=> GameJoltAPI.Instance.CurrentUser != null);
+		//yield return null;
+		User = GameJoltAPI.Instance.CurrentUser.Name;
 	}
 }

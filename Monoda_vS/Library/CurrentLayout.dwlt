@@ -106,10 +106,10 @@ MonoBehaviour:
     y: 30
     width: 1366
     height: 635
-  m_MinSize: {x: 683, y: 442}
+  m_MinSize: {x: 683, y: 342}
   m_MaxSize: {x: 12008, y: 8042}
   vertical: 0
-  controlID: 70
+  controlID: 45
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -130,10 +130,10 @@ MonoBehaviour:
     y: 0
     width: 994
     height: 635
-  m_MinSize: {x: 406, y: 442}
+  m_MinSize: {x: 406, y: 342}
   m_MaxSize: {x: 8006, y: 8042}
   vertical: 1
-  controlID: 71
+  controlID: 46
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -227,16 +227,16 @@ MonoBehaviour:
     y: 357
     width: 994
     height: 278
-  m_MinSize: {x: 202, y: 221}
+  m_MinSize: {x: 102, y: 121}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 14}
+  m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 16}
   - {fileID: 17}
   - {fileID: 18}
   - {fileID: 14}
   - {fileID: 19}
-  m_Selected: 3
+  m_Selected: 1
   m_LastSelected: 0
 --- !u!114 &11
 MonoBehaviour:
@@ -372,7 +372,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 68f9ffff00000000
+    m_ExpandedIDs: e292feff8093feffe495feff4c96feff5a96feff18e0feffb8e0feff1ce3feff84e3feff92e3feffa2ebfeff40ecfeffa8eefeff14effeff26effeff10d8ffffb2dafffff2dbffffdce1ffff34e8ffffe4fbffff000000001e400000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -537,20 +537,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Sounds
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Sounds
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\otreblan\Documents\GitHub\Monoda-vS\Monoda_vS
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 4e330000
-    m_LastClickedID: 13134
-    m_ExpandedIDs: 00000000842d00004c2e0000682e0000002f0000522f000018300000ae310000d4320000b433000002340000a4340000
+    m_SelectedIDs: f22b0000
+    m_LastClickedID: 11250
+    m_ExpandedIDs: 00000000f22b0000c02c0000e02c0000522d0000882d0000e62d0000b82e00007830000022310000c6310000bc32000016330000c433000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -578,7 +578,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000842d00004c2e0000682e0000002f0000522f000018300000ae310000d4320000b433000002340000a4340000
+    m_ExpandedIDs: 00000000f22b0000c02c0000e02c0000882d0000e62d0000b82e000078300000c6310000bc32000016330000c4330000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -603,9 +603,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs: 84010000
+    m_LastClickedInstanceID: 388
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000f40a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -684,7 +684,7 @@ MonoBehaviour:
     height: 257
   m_PersistentViewDataDictionary: {fileID: 0}
   m_VertSplit:
-    ID: 1483
+    ID: 1186
     splitterInitialOffset: 0
     currentActiveSplitter: -1
     realSizes: 7800000079000000

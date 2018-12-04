@@ -1,6 +1,6 @@
 WebGL
 PlayerPath?
-C:/Users/otreblan/Desktop/pruebas/0.0.9
+C:/Users/otreblan/Desktop/pruebas/0.0.12
 SceneListBegin?
 Assets/Scenes/PruebasPortada.unity
 Assets/Scenes/PruebasRandom.unity
